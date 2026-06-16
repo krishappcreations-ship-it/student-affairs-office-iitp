@@ -20,8 +20,12 @@ export function Initiatives() {
           {initiatives.items.map((item) => (
             <li
               key={item.title}
-              className="rounded-2xl border border-line bg-card p-6"
+              className="group relative overflow-hidden rounded-2xl border border-line bg-card p-6 transition-all duration-200 hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-lg hover:shadow-primary/5"
             >
+              <span
+                aria-hidden="true"
+                className="absolute inset-x-0 top-0 h-1 origin-left scale-x-0 bg-accent transition-transform duration-300 group-hover:scale-x-100"
+              />
               <span className="inline-block rounded-full bg-primary/10 px-2.5 py-0.5 text-xs font-semibold text-primary">
                 {item.year}
               </span>

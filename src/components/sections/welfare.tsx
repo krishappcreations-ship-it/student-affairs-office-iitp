@@ -20,7 +20,7 @@ export function Welfare() {
           {welfare.programs.map((p) => (
             <article
               key={p.title}
-              className="flex flex-col rounded-2xl border border-line bg-card p-6"
+              className="flex flex-col rounded-2xl border border-line bg-card p-6 transition-all duration-200 hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-lg hover:shadow-primary/5"
             >
               <h3 className="font-serif text-lg font-semibold text-primary-deep">
                 {p.title}
@@ -35,7 +35,7 @@ export function Welfare() {
                   rel={
                     p.link.startsWith("http") ? "noopener noreferrer" : undefined
                   }
-                  className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-primary hover:text-accent"
+                  className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-primary hover:text-accent-text"
                 >
                   Learn more
                   <span aria-hidden="true">

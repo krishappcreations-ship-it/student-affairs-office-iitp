@@ -21,9 +21,9 @@ export function Responsibilities() {
           {responsibilities.items.map((item) => (
             <li
               key={item.title}
-              className="rounded-2xl border border-line bg-surface-alt p-6 transition-colors hover:border-primary/40"
+              className="group rounded-2xl border border-line bg-surface-alt p-6 transition-all duration-200 hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-lg hover:shadow-primary/5"
             >
-              <span className="inline-flex h-11 w-11 items-center justify-center rounded-xl bg-primary/10 text-primary">
+              <span className="inline-flex h-11 w-11 items-center justify-center rounded-xl bg-primary/10 text-primary transition-colors group-hover:bg-primary group-hover:text-white">
                 <Icon name={item.icon} className="h-6 w-6" />
               </span>
               <h3 className="mt-4 font-serif text-lg font-semibold text-primary-deep">

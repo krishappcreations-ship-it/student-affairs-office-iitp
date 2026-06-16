@@ -19,17 +19,20 @@ export function SectionHeading({
   return (
     <div className="max-w-2xl">
       {eyebrow && (
-        <p className="text-sm font-semibold uppercase tracking-wide text-accent-text">
+        <p className="flex items-center gap-2 text-sm font-semibold uppercase tracking-wider text-accent-text">
+          <span aria-hidden="true" className="h-px w-6 bg-accent" />
           {eyebrow}
         </p>
       )}
       <Title
         id={id}
-        className="mt-2 font-serif text-3xl font-semibold text-primary-deep sm:text-4xl"
+        className="mt-3 font-serif text-3xl font-semibold tracking-tight text-primary-deep sm:text-4xl"
       >
         {title}
       </Title>
-      {intro && <p className="mt-3 text-lg text-muted">{intro}</p>}
+      {intro && (
+        <p className="mt-3 text-lg leading-relaxed text-muted">{intro}</p>
+      )}
     </div>
   );
 }

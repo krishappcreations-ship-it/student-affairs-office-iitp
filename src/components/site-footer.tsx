@@ -8,7 +8,11 @@ export function SiteFooter() {
     [];
 
   return (
-    <footer className="mt-16 border-t border-line bg-primary-deep text-white/90">
+    <footer className="mt-16 bg-primary-deep text-white/90">
+      <div
+        aria-hidden="true"
+        className="h-1 w-full bg-gradient-to-r from-accent via-accent/50 to-primary"
+      />
       <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6">
         <div className="grid gap-10 md:grid-cols-3">
           {/* Identity */}

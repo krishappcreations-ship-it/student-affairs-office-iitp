@@ -97,15 +97,15 @@ export function CampusLife() {
           {campusLife.areas.map((area) => (
             <article
               key={area.title}
-              className="overflow-hidden rounded-2xl border border-line"
+              className="group overflow-hidden rounded-2xl border border-line transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-primary/5"
             >
-              <div className="relative aspect-[16/10]">
+              <div className="relative aspect-[16/10] overflow-hidden">
                 <Image
                   src={area.image}
                   alt={area.title}
                   fill
                   sizes="(max-width: 768px) 100vw, 33vw"
-                  className="object-cover"
+                  className="object-cover transition-transform duration-500 group-hover:scale-105"
                 />
               </div>
               <div className="bg-card p-5">
@@ -134,7 +134,7 @@ function ClubGroup({ title, items }: { title: string; items: string[] }) {
         {items.map((c) => (
           <li
             key={c}
-            className="rounded-full border border-line bg-card px-3 py-1 text-sm text-ink/85"
+            className="rounded-full border border-line bg-card px-3 py-1 text-sm text-ink/85 transition-colors hover:border-primary/40 hover:text-primary"
           >
             {c}
           </li>

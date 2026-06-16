@@ -146,7 +146,7 @@ export function ContactForm() {
           onChange={(e) => update("message", e.target.value)}
           aria-invalid={Boolean(errors.message)}
           aria-describedby={errors.message ? "message-error" : undefined}
-          className="mt-1.5 w-full rounded-lg border border-line bg-card px-3 py-2 text-ink outline-none focus:border-primary"
+          className="mt-1.5 w-full rounded-lg border border-line bg-card px-3 py-2 text-ink outline-none transition focus:border-primary focus:ring-2 focus:ring-primary/20"
         />
         {errors.message && (
           <p id="message-error" className="mt-1 text-sm text-danger">
@@ -177,7 +177,7 @@ export function ContactForm() {
       <button
         type="submit"
         disabled={status === "submitting"}
-        className="rounded-lg bg-primary px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-primary-deep disabled:opacity-60"
+        className="rounded-lg bg-primary px-5 py-3 text-sm font-semibold text-white shadow-md shadow-primary/20 transition-colors hover:bg-primary-deep focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 disabled:opacity-60"
       >
         {status === "submitting" ? "Sending…" : "Send message"}
       </button>

@@ -105,7 +105,7 @@ export function GalleryClient({ categories }: GalleryClientProps) {
                   <button
                     type="button"
                     onClick={() => open(idx)}
-                    className="group relative block aspect-square w-full overflow-hidden rounded-xl border border-line"
+                    className="group relative block aspect-square w-full overflow-hidden rounded-xl border border-line ring-2 ring-transparent transition-shadow hover:shadow-lg hover:shadow-primary/10 hover:ring-primary/30 focus-visible:outline-none focus-visible:ring-accent"
                     aria-label={`View image: ${it.caption}`}
                   >
                     <Image
@@ -114,6 +114,10 @@ export function GalleryClient({ categories }: GalleryClientProps) {
                       fill
                       sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
                       className="object-cover transition-transform duration-300 group-hover:scale-105"
+                    />
+                    <span
+                      aria-hidden="true"
+                      className="absolute inset-0 bg-primary-deep/0 transition-colors duration-300 group-hover:bg-primary-deep/15"
                     />
                   </button>
                 </li>

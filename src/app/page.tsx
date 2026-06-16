@@ -34,54 +34,67 @@ export default function Home() {
 
         <div className="relative mx-auto grid max-w-6xl gap-10 px-4 py-16 sm:px-6 md:grid-cols-2 md:items-center md:py-24">
           <div>
-            <p className="text-sm font-semibold uppercase tracking-wide text-accent">
+            <span className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-white/80 backdrop-blur">
+              <span aria-hidden="true" className="h-1.5 w-1.5 rounded-full bg-accent" />
               {site.parentInstitute.value}
-            </p>
-            <h1 className="mt-3 font-serif text-4xl font-semibold leading-tight text-white sm:text-5xl">
+            </span>
+            <h1 className="mt-4 font-serif text-4xl font-semibold leading-[1.05] tracking-tight text-white sm:text-5xl lg:text-6xl">
               Student Affairs Office
             </h1>
-            <p className="mt-4 max-w-md text-lg text-white/85">
+            <div className="mt-5 h-px w-16 bg-accent/70" aria-hidden="true" />
+            <p className="mt-5 max-w-md text-lg leading-relaxed text-white/85">
               {site.tagline.value}
             </p>
-            <p className="mt-2 text-sm text-white/65">{site.motto.value}</p>
+            <p className="mt-3 border-l-2 border-accent/60 pl-3 text-sm italic text-white/65">
+              {site.motto.value}
+            </p>
 
             <div className="mt-8 flex flex-wrap gap-3">
               <Link
                 href="/resources"
-                className="rounded-lg bg-accent px-5 py-3 text-sm font-semibold text-ink transition-colors hover:bg-[#ffa24d]"
+                className="rounded-lg bg-accent px-5 py-3 text-sm font-semibold text-ink shadow-lg shadow-black/20 transition-colors hover:bg-[#ffa24d] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-primary-deep"
               >
                 Find Support &amp; Resources
               </Link>
               <Link
                 href="/contact"
-                className="rounded-lg border border-white/30 px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-white/10"
+                className="rounded-lg border border-white/30 px-5 py-3 text-sm font-semibold text-white transition-colors hover:border-white/60 hover:bg-white/10"
               >
                 Contact the Office
               </Link>
             </div>
           </div>
 
-          <div className="relative aspect-[4/3] overflow-hidden rounded-2xl border border-white/15 shadow-lg">
+          <div className="group relative aspect-[4/3] overflow-hidden rounded-2xl ring-1 ring-white/15 shadow-2xl shadow-black/40">
             <Image
               src="/iitp/section/live-events.jpeg"
               alt="Students at an IIT Patna campus event"
               fill
               priority
               sizes="(max-width: 768px) 100vw, 50vw"
-              className="object-cover"
+              className="object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+            />
+            <div
+              aria-hidden="true"
+              className="absolute inset-0 bg-gradient-to-t from-primary-deep/60 via-transparent to-transparent"
             />
           </div>
         </div>
 
         {/* Stat strip */}
-        <div className="relative border-t border-white/15">
-          <dl className="mx-auto grid max-w-6xl grid-cols-2 divide-white/10 px-4 sm:px-6 md:grid-cols-4 md:divide-x">
+        <div className="relative border-t border-white/15 bg-white/[0.03]">
+          <dl className="mx-auto grid max-w-6xl grid-cols-2 gap-px overflow-hidden md:grid-cols-4">
             {about.stats.slice(0, 4).map((s) => (
-              <div key={s.label} className="px-2 py-5 text-center md:py-6">
+              <div
+                key={s.label}
+                className="bg-primary-deep px-3 py-6 text-center transition-colors hover:bg-white/[0.04]"
+              >
                 <dd className="font-serif text-lg font-semibold leading-tight text-accent sm:text-xl md:text-2xl">
                   {s.value}
                 </dd>
-                <dt className="mt-1 text-xs text-white/70">{s.label}</dt>
+                <dt className="mt-1.5 text-xs uppercase tracking-wide text-white/60">
+                  {s.label}
+                </dt>
               </div>
             ))}
           </dl>
