@@ -36,12 +36,12 @@ export function SiteHeader() {
 
         {/* Desktop nav */}
         <nav aria-label="Primary" className="hidden lg:block">
-          <ul className="flex items-center gap-1">
+          <ul className="flex items-center gap-0.5">
             {site.nav.items.map((item) => (
               <li key={item.href}>
                 <Link
                   href={item.href}
-                  className="rounded-md px-2.5 py-2 text-sm font-medium text-ink/80 transition-colors hover:bg-surface-alt hover:text-primary"
+                  className="whitespace-nowrap rounded-md px-3 py-2 text-sm font-medium text-ink/80 transition-colors hover:bg-surface-alt hover:text-primary"
                 >
                   {item.label}
                 </Link>

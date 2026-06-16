@@ -37,7 +37,7 @@ export default function Home() {
             <p className="text-sm font-semibold uppercase tracking-wide text-accent">
               {site.parentInstitute.value}
             </p>
-            <h1 className="mt-3 font-serif text-4xl font-semibold leading-tight sm:text-5xl">
+            <h1 className="mt-3 font-serif text-4xl font-semibold leading-tight text-white sm:text-5xl">
               Student Affairs Office
             </h1>
             <p className="mt-4 max-w-md text-lg text-white/85">
@@ -78,7 +78,7 @@ export default function Home() {
           <dl className="mx-auto grid max-w-6xl grid-cols-2 divide-white/10 px-4 sm:px-6 md:grid-cols-4 md:divide-x">
             {about.stats.slice(0, 4).map((s) => (
               <div key={s.label} className="px-2 py-5 text-center md:py-6">
-                <dd className="font-serif text-2xl font-semibold text-accent">
+                <dd className="font-serif text-lg font-semibold leading-tight text-accent sm:text-xl md:text-2xl">
                   {s.value}
                 </dd>
                 <dt className="mt-1 text-xs text-white/70">{s.label}</dt>

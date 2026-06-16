@@ -41,17 +41,21 @@
   --radius-base: var(--radius);
 }
 
-body {
-  background: var(--surface);
-  color: var(--ink);
-  font-family: var(--font-body), ui-sans-serif, system-ui, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-}
+/* Base element styles in @layer base so Tailwind text-color utilities
+   (text-white, text-primary-deep, …) override these defaults. */
+@layer base {
+  body {
+    background: var(--surface);
+    color: var(--ink);
+    font-family: var(--font-body), ui-sans-serif, system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-heading), Georgia, "Times New Roman", serif;
-  color: var(--ink);
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading), Georgia, "Times New Roman", serif;
+    color: var(--ink);
+  }
 }
 
 /* Accessible focus — visible on keyboard nav */

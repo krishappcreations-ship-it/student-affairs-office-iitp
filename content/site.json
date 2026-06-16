@@ -24,11 +24,7 @@
     "items": [
       { "label": "Home", "href": "/" },
       { "label": "About", "href": "/#about" },
-      { "label": "Vision & Mission", "href": "/#vision" },
-      { "label": "Responsibilities", "href": "/#responsibilities" },
-      { "label": "Student Welfare", "href": "/#welfare" },
       { "label": "Campus Life", "href": "/#campus-life" },
-      { "label": "Initiatives", "href": "/#initiatives" },
       { "label": "Team", "href": "/team" },
       { "label": "Gallery", "href": "/gallery" },
       { "label": "Resources", "href": "/resources" },
