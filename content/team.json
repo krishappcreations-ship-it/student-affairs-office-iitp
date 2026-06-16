@@ -1,0 +1,15 @@
+{
+  "_legend": "Role titles mirror real IITP student-affairs functions (real). All NAMES, photos, emails are DUMMY placeholders. Design is role-keyed + ordered so people change WITHOUT code edits — edit this file only.",
+  "heading": "Meet the Team",
+  "intro": { "tag": "dummy", "value": "The people behind student support at IIT Patna." },
+  "members": [
+    { "order": 1, "roleTag": "real", "role": "Dean of Students", "nameTag": "dummy", "name": "Prof. A. Placeholder", "photo": "/team/placeholder.jpg", "email": "dean.students@iitp.ac.in", "blurb": "Leads the Student Affairs Office and overall student welfare." },
+    { "order": 2, "roleTag": "real", "role": "Associate Dean of Students", "nameTag": "dummy", "name": "Prof. B. Placeholder", "photo": "/team/placeholder.jpg", "email": "assocdean.students@iitp.ac.in", "blurb": "President, Board for Hostel Management; oversees residential life." },
+    { "order": 3, "roleTag": "real", "role": "Warden (Boys' Hostels)", "nameTag": "dummy", "name": "Dr. C. Placeholder", "photo": "/team/placeholder.jpg", "email": "warden.boys@iitp.ac.in", "blurb": "Day-to-day welfare and discipline in the boys' hostels." },
+    { "order": 4, "roleTag": "real", "role": "Warden (Girls' Hostel)", "nameTag": "dummy", "name": "Dr. D. Placeholder", "photo": "/team/placeholder.jpg", "email": "warden.girls@iitp.ac.in", "blurb": "Day-to-day welfare and discipline in the girls' hostel." },
+    { "order": 5, "roleTag": "real", "role": "Assistant Registrar (Student Affairs)", "nameTag": "dummy", "name": "Mr. E. Placeholder", "photo": "/team/placeholder.jpg", "email": "ar.studentaffairs@iitp.ac.in", "blurb": "Administrative support for student affairs and hostels." },
+    { "order": 6, "roleTag": "real", "role": "Counsellor / Wellness Lead", "nameTag": "dummy", "name": "Ms. F. Placeholder", "photo": "/team/placeholder.jpg", "email": "counsellor@iitp.ac.in", "blurb": "Confidential counselling and mental-wellness programmes." },
+    { "order": 7, "roleTag": "real", "role": "General Secretary, Students' Gymkhana", "nameTag": "dummy", "name": "Student Placeholder", "photo": "/team/placeholder.jpg", "email": "gsec.gymkhana@iitp.ac.in", "blurb": "Elected student head of the Gymkhana council." }
+  ],
+  "_swapGuide": "To update people: change name/photo/email/blurb only. To add/remove a role: add/remove an object and renumber 'order'. No component code needs editing."
+}

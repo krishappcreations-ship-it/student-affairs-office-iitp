@@ -1,0 +1,14 @@
+{
+  "_legend": "all dummy — plausible SAO initiatives. Replace with real programs when available.",
+  "tag": "dummy",
+  "heading": "Major Initiatives",
+  "intro": "Focused programs the SAO runs to improve student life year on year.",
+  "items": [
+    { "title": "Student Buddy Programme", "year": "2025", "body": "Pairs every incoming student with a senior mentor for a smooth first semester.", "icon": "handshake" },
+    { "title": "Mind Matters — Wellness Drive", "year": "2025", "body": "Campus-wide mental-health awareness, counselling camps and stress-relief weeks during exams.", "icon": "brain" },
+    { "title": "One-Window Help Desk", "year": "2024", "body": "A single physical + online desk for hostel, fee, ID and grievance queries.", "icon": "kiosk" },
+    { "title": "Green Campus & Sustainability", "year": "2024", "body": "Student-led waste segregation, cycle-sharing and energy-saving drives in hostels.", "icon": "leaf" },
+    { "title": "Inclusion & Accessibility Push", "year": "2023", "body": "Accessible facilities audit and support services for students with disabilities.", "icon": "accessibility" },
+    { "title": "Alumni–Student Connect", "year": "2023", "body": "Mentorship and career talks linking students with IIT Patna alumni.", "icon": "network" }
+  ]
+}

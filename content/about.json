@@ -1,0 +1,17 @@
+{
+  "_legend": "real = grounded; dummy = fabricated",
+  "heading": "About the Student Affairs Office",
+  "lead": { "tag": "dummy", "value": "The Student Affairs Office (SAO) is the central point of support for student life at IIT Patna — bringing hostels, the Students' Gymkhana, wellness, career counselling, and welfare services under one calm, easy-to-navigate front door." },
+  "body": [
+    { "tag": "dummy", "value": "From the day a student arrives on the Bihta campus to the day they graduate, the SAO works to make every part of campus life clear, accessible, and supportive. We coordinate residential life, co-curricular activity, health and wellness, financial assistance, and grievance redressal." },
+    { "tag": "real", "value": "Today over 1,500 students live on campus across the institute's boys' and girls' hostels, with reading rooms, indoor games, gymnasiums, dining halls and 24-hour Wi-Fi." },
+    { "tag": "dummy", "value": "Rather than scattering information across many offices and portals, the SAO gives students a single place to find what they need and who to ask." }
+  ],
+  "stats": [
+    { "tag": "real", "label": "Students in residence", "value": "1500+" },
+    { "tag": "real", "label": "Hostels", "value": "Boys (4 blocks) + Girls (2 blocks)" },
+    { "tag": "real", "label": "Flagship fests", "value": "Anwesha · Celesta · Infinito" },
+    { "tag": "dummy", "label": "Support services", "value": "12+" }
+  ],
+  "_note": "history blurb is dummy; institute facts (residents, hostels, fests) are real."
+}

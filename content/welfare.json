@@ -1,0 +1,13 @@
+{
+  "_legend": "dummy programs grounded in real IITP services",
+  "heading": "Student Welfare",
+  "intro": { "tag": "dummy", "value": "Practical support for the moments that matter — health, money, belonging, and a safe place to raise concerns." },
+  "programs": [
+    { "tag": "real", "title": "Health Centre & Emergency Care", "body": "On-campus health centre with a doctor room in hostels and emergency support.", "link": "https://www.iitp.ac.in/campus-life" },
+    { "tag": "dummy", "title": "Counselling & Mental Wellness", "body": "Confidential counselling, peer support groups, and wellness workshops.", "link": "https://ccdc.iitp.ac.in/" },
+    { "tag": "dummy", "title": "Scholarships & Financial Assistance", "body": "Guidance on merit and need-based scholarships, fee concessions and emergency aid." },
+    { "tag": "real", "title": "Inclusion Cells", "body": "SC/ST/OBC Cell and Women's Grievance Redressal / Internal Complaints Committee (WGRC/ICC).", "link": "https://www.iitp.ac.in/miscellaneous/sc-st-obc-cell" },
+    { "tag": "real", "title": "Anti-Ragging", "body": "Zero-tolerance policy with strict action per Supreme Court guidelines.", "link": "https://www.iitp.ac.in/miscellaneous/anti-ragging" },
+    { "tag": "dummy", "title": "International & New-Student Support", "body": "Orientation, mentorship and settling-in help for first-year and international students." }
+  ]
+}

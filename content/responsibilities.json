@@ -1,0 +1,13 @@
+{
+  "_legend": "real = mirrors actual IITP functions; dummy = framing",
+  "heading": "Key Responsibilities",
+  "intro": { "tag": "dummy", "value": "The SAO coordinates the services that shape day-to-day student life." },
+  "items": [
+    { "tag": "real", "icon": "home", "title": "Residential Life & Hostels", "body": "Coordinating hostel administration, wardens, mess, and the hostel councils that run cultural, sports, technical and maintenance activities." },
+    { "tag": "real", "icon": "users", "title": "Students' Gymkhana & Clubs", "body": "Supporting the student council, technical and cultural clubs, and inter-hostel / inter-department events." },
+    { "tag": "real", "icon": "heart", "title": "Health & Wellness", "body": "Liaising with the campus health center and counselling services for physical and mental wellbeing." },
+    { "tag": "real", "icon": "briefcase", "title": "Career & Counselling", "body": "Working with the Centre for Career Development and Counselling (CCDC) on guidance, mentorship and placement support." },
+    { "tag": "dummy", "icon": "rupee", "title": "Scholarships & Financial Aid", "body": "Helping students access scholarships, fee assistance and emergency financial support." },
+    { "tag": "real", "icon": "shield", "title": "Safety & Grievance Redressal", "body": "Anti-ragging enforcement, ICC/WGRC, SC/ST/OBC cell coordination, and a fair grievance process." }
+  ]
+}

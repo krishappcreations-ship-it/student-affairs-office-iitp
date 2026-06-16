@@ -1,0 +1,39 @@
+{
+  "_legend": "real = grounded in iitp.ac.in; dummy = fabricated placeholder",
+  "name": { "value": "Student Affairs Office", "tag": "dummy", "note": "Unit framed for the project; not a standalone office on the live site." },
+  "parentInstitute": { "value": "Indian Institute of Technology Patna", "tag": "real" },
+  "tagline": { "value": "Your campus, supported — every step of student life.", "tag": "dummy" },
+  "motto": { "value": "विद्यार्थी लभते विद्याम् · One who aspires wisdom, attains it", "tag": "real" },
+  "logo": { "institute": "/iitp/brand/iitp-logo.png", "tag": "real" },
+  "brandTokens": {
+    "tag": "real-sampled",
+    "note": "Sampled from /iitp/brand/iitp-logo.png (1200x1200). IIT Patna logo is blue-dominant with saffron + green accents (tricolour institutional identity) — NOT maroon.",
+    "primary": "#0F5C99",
+    "primaryDeep": "#0C3F66",
+    "accent": "#F08020",
+    "accentGreen": "#108040",
+    "ink": "#1B2733",
+    "surface": "#F7F9FB",
+    "surfaceAlt": "#EEF3F7",
+    "line": "#D8E1E9"
+  },
+  "fonts": { "tag": "approximate", "heading": "Fraunces", "body": "Source Sans 3" },
+  "nav": {
+    "tag": "dummy",
+    "note": "IA for the SAO site. Hybrid: home anchors + dedicated pages.",
+    "items": [
+      { "label": "Home", "href": "/" },
+      { "label": "About", "href": "/#about" },
+      { "label": "Vision & Mission", "href": "/#vision" },
+      { "label": "Responsibilities", "href": "/#responsibilities" },
+      { "label": "Student Welfare", "href": "/#welfare" },
+      { "label": "Campus Life", "href": "/#campus-life" },
+      { "label": "Initiatives", "href": "/#initiatives" },
+      { "label": "Team", "href": "/team" },
+      { "label": "Gallery", "href": "/gallery" },
+      { "label": "Resources", "href": "/resources" },
+      { "label": "FAQ", "href": "/faq" },
+      { "label": "Contact", "href": "/contact" }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "_legend": "real images from iitp.ac.in. Local paths assume scrape/download-assets.sh has run; remoteUrl kept as fallback/source. Captions dummy.",
+  "heading": "Photo Gallery",
+  "intro": { "tag": "dummy", "value": "Moments from life on the IIT Patna campus." },
+  "categories": [
+    {
+      "name": "Festivals & Events",
+      "items": [
+        { "tag": "real", "local": "/iitp/gallery/fest/infinito-1.jpg", "remoteUrl": "https://www.iitp.ac.in/images/campus/fest/infinito-1.JPG", "caption": "Infinito sports fest" },
+        { "tag": "real", "local": "/iitp/gallery/fest/fest-night.jpg", "remoteUrl": "https://www.iitp.ac.in/images/campus/fest/20240202_193743.jpg", "caption": "Fest night on campus" },
+        { "tag": "real", "local": "/iitp/section/live-events.jpeg", "remoteUrl": "https://www.iitp.ac.in/images/anwesha-1.jpeg", "caption": "Anwesha cultural fest" }
+      ]
+    },
+    {
+      "name": "Sports",
+      "items": [
+        { "tag": "real", "local": "/iitp/gallery/sports/badminton.jpeg", "remoteUrl": "https://www.iitp.ac.in/images/campus/Sports/badminton-1.jpeg", "caption": "Badminton court" },
+        { "tag": "real", "local": "/iitp/gallery/sports/tennis.png", "remoteUrl": "https://www.iitp.ac.in/images/campus/Sports/tennis.png", "caption": "Tennis court" },
+        { "tag": "real", "local": "/iitp/section/sports.jpeg", "remoteUrl": "https://www.iitp.ac.in/images/sports-complex-1.jpeg", "caption": "Sports complex" }
+      ]
+    },
+    {
+      "name": "Hostel & Gymkhana",
+      "items": [
+        { "tag": "real", "local": "/iitp/gallery/hostel/gymkhana-1.jpg", "remoteUrl": "https://www.iitp.ac.in/images/campus/Hostel%20&%20Gymkhana%20Area/IMG-20240116-WA0026.jpg", "caption": "Gymkhana area" },
+        { "tag": "real", "local": "/iitp/section/hostel.jpg", "remoteUrl": "https://www.iitp.ac.in/images/hostel-1.jpg", "caption": "Hostel block" }
+      ]
+    },
+    {
+      "name": "Amenities & Academics",
+      "items": [
+        { "tag": "real", "local": "/iitp/gallery/amenities/library-1.png", "remoteUrl": "https://www.iitp.ac.in/images/campus/Amenities/lib-1.png", "caption": "Central library" },
+        { "tag": "real", "local": "/iitp/gallery/amenities/auditorium.png", "remoteUrl": "https://www.iitp.ac.in/images/campus/Amenities/audi.png", "caption": "Auditorium" },
+        { "tag": "real", "local": "/iitp/gallery/academic/academic-circle.png", "remoteUrl": "https://www.iitp.ac.in/images/campus/Academic%20Area/academic-circle.png", "caption": "Academic area" }
+      ]
+    }
+  ]
+}

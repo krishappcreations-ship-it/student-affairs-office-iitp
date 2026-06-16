@@ -1,0 +1,13 @@
+{
+  "_legend": "national helpline = real; campus numbers = dummy placeholders (replace before real use)",
+  "heading": "Emergency Contacts",
+  "note": { "tag": "dummy", "value": "In a life-threatening emergency, call campus security first. Numbers marked (placeholder) must be replaced with official ones." },
+  "contacts": [
+    { "tag": "dummy", "label": "Campus Security (24x7)", "value": "06115-233-XXX", "placeholder": true },
+    { "tag": "dummy", "label": "Health Centre / Ambulance", "value": "06115-233-XXX", "placeholder": true },
+    { "tag": "dummy", "label": "Warden on Duty", "value": "06115-233-XXX", "placeholder": true },
+    { "tag": "dummy", "label": "Counselling Helpline", "value": "06115-233-XXX", "placeholder": true },
+    { "tag": "real", "label": "National Anti-Ragging Helpline", "value": "1800-180-5522", "email": "helpline@antiragging.in" },
+    { "tag": "real", "label": "National Emergency Number", "value": "112" }
+  ]
+}

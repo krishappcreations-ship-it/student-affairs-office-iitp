@@ -1,0 +1,41 @@
+{
+  "_legend": "real links where available; dummy framing",
+  "heading": "Resources & Support",
+  "intro": { "tag": "dummy", "value": "Quick links to the services and offices students use most." },
+  "groups": [
+    {
+      "name": "Residential & Daily Life",
+      "items": [
+        { "tag": "real", "label": "Hostels", "href": "https://www.iitp.ac.in/hostels" },
+        { "tag": "real", "label": "Students' Gymkhana", "href": "https://www.iitp.ac.in/gymkhana/index.html" },
+        { "tag": "real", "label": "Campus Life", "href": "https://www.iitp.ac.in/campus-life" },
+        { "tag": "real", "label": "Library", "href": "https://library.iitp.ac.in/" }
+      ]
+    },
+    {
+      "name": "Wellness & Career",
+      "items": [
+        { "tag": "real", "label": "Career Development & Counselling (CCDC)", "href": "https://ccdc.iitp.ac.in/" },
+        { "tag": "real", "label": "Career Opportunities", "href": "https://www.iitp.ac.in/opportunities/career-opportunities" },
+        { "tag": "dummy", "label": "Counselling Appointment (form)", "href": "/contact" }
+      ]
+    },
+    {
+      "name": "Safety, Rights & Grievances",
+      "items": [
+        { "tag": "real", "label": "Anti-Ragging", "href": "https://www.iitp.ac.in/miscellaneous/anti-ragging" },
+        { "tag": "real", "label": "WGRC / ICC", "href": "https://www.iitp.ac.in/miscellaneous/wgrc-icc" },
+        { "tag": "real", "label": "SC/ST/OBC Cell", "href": "https://www.iitp.ac.in/miscellaneous/sc-st-obc-cell" },
+        { "tag": "real", "label": "RTI", "href": "https://www.iitp.ac.in/miscellaneous/rti" }
+      ]
+    },
+    {
+      "name": "Downloads (dummy)",
+      "items": [
+        { "tag": "dummy", "label": "New Student Handbook (PDF)", "href": "/docs/handbook.pdf" },
+        { "tag": "dummy", "label": "Hostel Rules (PDF)", "href": "/docs/hostel-rules.pdf" },
+        { "tag": "dummy", "label": "Grievance Form (PDF)", "href": "/docs/grievance-form.pdf" }
+      ]
+    }
+  ]
+}

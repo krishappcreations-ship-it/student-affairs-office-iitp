@@ -1,0 +1,16 @@
+{
+  "_legend": "address real; SAO-specific email/phone/hours dummy",
+  "heading": "Contact Information",
+  "intro": { "tag": "dummy", "value": "Reach the Student Affairs Office — we're here to help." },
+  "office": { "tag": "dummy", "value": "Student Affairs Office, Administrative Block" },
+  "address": { "tag": "real", "lines": ["Indian Institute of Technology Patna", "Bihta Kanpa Road, Bihta", "Patna, Bihar — 801106", "India"] },
+  "email": { "tag": "dummy", "value": "studentaffairs@iitp.ac.in" },
+  "phone": { "tag": "dummy", "value": "06115-233-XXX", "note": "Campus operator pattern is real (06115-233-XXX); specific SAO extension is a placeholder." },
+  "hours": { "tag": "dummy", "value": "Monday–Friday, 9:30 AM – 5:30 PM" },
+  "map": { "tag": "real", "embedQuery": "Indian Institute of Technology Patna, Bihta, 801106" },
+  "form": {
+    "tag": "dummy",
+    "note": "Contact form spec — fields per brief. Submission handling defined in MASTER-PROMPT-SAO.md (validate client+server, sanitize, rate-limit, no secrets in client).",
+    "fields": ["Name", "Email", "Organization / Institution", "Subject", "Message"]
+  }
+}

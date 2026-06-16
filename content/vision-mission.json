@@ -1,0 +1,18 @@
+{
+  "_legend": "all dummy — fabricated, plausible. Replace with official wording before real use.",
+  "tag": "dummy",
+  "vision": "To make student life at IIT Patna supportive, inclusive, and easy to navigate — so every student can thrive academically, personally, and socially.",
+  "mission": [
+    "Provide a single, clear front door to every student support service on campus.",
+    "Ensure safe, comfortable and well-run residential life.",
+    "Champion student wellness — physical, mental, and emotional.",
+    "Enable a vibrant culture of clubs, festivals, sports, and leadership.",
+    "Uphold fairness through transparent grievance redressal and a zero-tolerance stance on ragging and harassment."
+  ],
+  "values": [
+    { "title": "Accessibility", "body": "Information and help are never more than a couple of clicks — or a short walk — away." },
+    { "title": "Inclusion", "body": "Every student belongs, supported regardless of background." },
+    { "title": "Wellbeing", "body": "We put student health and safety first, always." },
+    { "title": "Integrity", "body": "We act transparently and treat every student fairly." }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "_legend": "questions plausible; answers dummy (some grounded in real facts). Verify before real use.",
+  "heading": "Frequently Asked Questions",
+  "items": [
+    { "tag": "dummy", "q": "How do I contact the Student Affairs Office?", "a": "Use the contact form on this site, email studentaffairs@iitp.ac.in, or visit the SAO desk in the Administrative Block during office hours (Mon–Fri, 9:30 AM–5:30 PM). (Placeholder details.)" },
+    { "tag": "real", "q": "Where will I stay on campus?", "a": "IIT Patna provides on-campus hostels — boys' hostels across four blocks and a girls' hostel across two blocks, currently housing 1500+ students, with reading rooms, gyms, dining halls and 24-hour Wi-Fi." },
+    { "tag": "dummy", "q": "How do I apply for a scholarship or financial assistance?", "a": "Visit Resources & Support for scholarship guidance, or contact the SAO for merit/need-based and emergency aid options. (Placeholder.)" },
+    { "tag": "real", "q": "What is the policy on ragging?", "a": "IIT Patna has a zero-tolerance policy. Ragging is banned and punishable per Supreme Court guidelines; offenders face disciplinary and legal action." },
+    { "tag": "dummy", "q": "How do I get counselling support?", "a": "Confidential counselling is available through the wellness team and CCDC. Request an appointment via the contact form; urgent help is listed under Emergency Contacts." },
+    { "tag": "real", "q": "What clubs and fests can I join?", "a": "Technical clubs (Robotics, E-Cell, Finance, Design, Trading, Technical) and cultural clubs (Yavanika drama, Aria music, Exousia dance), plus fests Anwesha, Celesta and Infinito." },
+    { "tag": "dummy", "q": "How do I raise a grievance?", "a": "Use the grievance form under Resources, or contact the relevant cell (ICC/WGRC, SC/ST/OBC). All grievances are handled confidentially and fairly. (Process is a placeholder.)" }
+  ]
+}

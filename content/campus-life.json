@@ -1,0 +1,20 @@
+{
+  "_legend": "real fests/clubs/areas; dummy descriptive copy",
+  "heading": "Campus Life Showcase",
+  "intro": { "tag": "dummy", "value": "Life at IIT Patna beyond the classroom — festivals, clubs, sports, and a thriving residential community." },
+  "fests": [
+    { "tag": "real", "name": "Anwesha", "type": "Cultural & techno-management fest", "blurb": "One of East India's biggest youth festivals since 2010, with 10,000+ footfall.", "image": "/iitp/section/live-events.jpeg", "link": "https://anwesha.iitp.ac.in/aboutus" },
+    { "tag": "real", "name": "Celesta", "type": "Technical fest", "blurb": "A celebration of innovation and technical prowess.", "image": "/iitp/gallery/fest/fest-night.jpg", "link": "https://ccdc.iitp.ac.in/vertical-timeline/events.html" },
+    { "tag": "real", "name": "Infinito", "type": "Sports fest", "blurb": "Inter-college sporting spirit and camaraderie.", "image": "/iitp/gallery/fest/infinito-1.jpg" }
+  ],
+  "clubs": {
+    "tag": "real",
+    "technical": ["Robotics Club", "Entrepreneurial Cell (E-Cell)", "Finance Club", "Design Club", "Trading & Investment Club", "Technical Club"],
+    "cultural": ["Yavanika (Drama)", "Aria (Music)", "Exousia (Dance)"]
+  },
+  "areas": [
+    { "tag": "real", "title": "Sports & Recreation", "body": "Sports complex, courts, gymnasiums — team and individual.", "image": "/iitp/section/sports.jpeg" },
+    { "tag": "real", "title": "Dining", "body": "Mess halls, canteens and cafeterias with rotating menus.", "image": "/iitp/section/dining.png" },
+    { "tag": "real", "title": "Residential Community", "body": "1500+ students across hostels with reading rooms, games and gyms.", "image": "/iitp/section/hostel.jpg" }
+  ]
+}
