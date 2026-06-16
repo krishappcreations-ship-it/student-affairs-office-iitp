@@ -36,7 +36,7 @@ export function CampusLife() {
                   <h3 className="font-serif text-2xl font-semibold text-primary-deep">
                     {campusLife.fests[0].name}
                   </h3>
-                  <span className="rounded-full bg-accent/20 px-2.5 py-0.5 text-xs font-semibold text-accent-text">
+                  <span className="rounded-full border border-accent/40 px-2.5 py-0.5 text-xs font-semibold text-accent-text">
                     {campusLife.fests[0].type}
                   </span>
                 </div>

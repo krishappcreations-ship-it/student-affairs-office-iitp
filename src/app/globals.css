@@ -8,6 +8,7 @@
   --primary-deep: #0c3f66;
   --accent: #f08020;
   --accent-text: #a8530c; /* AA-contrast saffron for small text on light */
+  --accent-light: #ffb066; /* AA-contrast saffron for small text on dark */
   --accent-green: #108040;
   --ink: #1b2733;
   --muted: #56697a;
@@ -26,6 +27,7 @@
   --color-primary-deep: var(--primary-deep);
   --color-accent: var(--accent);
   --color-accent-text: var(--accent-text);
+  --color-accent-light: var(--accent-light);
   --color-accent-green: var(--accent-green);
   --color-ink: var(--ink);
   --color-muted: var(--muted);

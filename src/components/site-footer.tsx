@@ -61,7 +61,7 @@ export function SiteFooter() {
           <section aria-labelledby="footer-emergency">
             <h2
               id="footer-emergency"
-              className="text-sm font-semibold uppercase tracking-wide text-accent"
+              className="text-sm font-semibold uppercase tracking-wide text-accent-light"
             >
               {emergency.heading}
             </h2>
@@ -78,7 +78,7 @@ export function SiteFooter() {
                 </li>
               ))}
             </ul>
-            <p className="mt-3 text-xs text-white/55">
+            <p className="mt-3 text-xs text-white/70">
               Numbers marked as placeholders are dummy data for this project.
             </p>
           </section>
