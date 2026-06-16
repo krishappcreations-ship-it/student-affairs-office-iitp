@@ -25,10 +25,10 @@ export function SiteHeader() {
             className="h-10 w-10 object-contain"
           />
           <span className="leading-tight">
-            <span className="block font-serif text-base font-semibold text-primary-deep">
+            <span className="block font-serif text-sm font-semibold text-primary-deep sm:text-base">
               Student Affairs Office
             </span>
-            <span className="block text-xs text-muted">
+            <span className="hidden text-xs text-muted sm:block">
               {site.parentInstitute.value}
             </span>
           </span>
