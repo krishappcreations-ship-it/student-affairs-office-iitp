@@ -3,10 +3,18 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 import { site } from "@/lib/content";
 
 export function SiteHeader() {
   const [open, setOpen] = useState(false);
+  const pathname = usePathname();
+
+  const isActive = (href: string): boolean => {
+    if (href === "/") return pathname === "/";
+    if (href.startsWith("/#")) return false; // same-page anchors
+    return pathname === href || pathname.startsWith(href + "/");
+  };
 
   return (
     <header className="sticky top-0 z-50 border-b border-line bg-card/90 shadow-sm backdrop-blur supports-[backdrop-filter]:bg-card/80">
@@ -37,16 +45,24 @@ export function SiteHeader() {
         {/* Desktop nav */}
         <nav aria-label="Primary" className="hidden lg:block">
           <ul className="flex items-center gap-0.5">
-            {site.nav.items.map((item) => (
-              <li key={item.href}>
-                <Link
-                  href={item.href}
-                  className="whitespace-nowrap rounded-md px-3 py-2 text-sm font-medium text-ink/80 transition-colors hover:bg-surface-alt hover:text-primary"
-                >
-                  {item.label}
-                </Link>
-              </li>
-            ))}
+            {site.nav.items.map((item) => {
+              const active = isActive(item.href);
+              return (
+                <li key={item.href}>
+                  <Link
+                    href={item.href}
+                    aria-current={active ? "page" : undefined}
+                    className={`whitespace-nowrap rounded-md px-3 py-2 text-sm font-medium transition-colors hover:bg-surface-alt hover:text-primary ${
+                      active
+                        ? "bg-surface-alt text-primary"
+                        : "text-ink/80"
+                    }`}
+                  >
+                    {item.label}
+                  </Link>
+                </li>
+              );
+            })}
           </ul>
         </nav>
 
@@ -71,17 +87,23 @@ export function SiteHeader() {
           className="border-t border-line bg-card lg:hidden"
         >
           <ul className="mx-auto max-w-6xl px-4 py-2 sm:px-6">
-            {site.nav.items.map((item) => (
-              <li key={item.href}>
-                <Link
-                  href={item.href}
-                  onClick={() => setOpen(false)}
-                  className="block rounded-md px-2 py-3 text-base font-medium text-ink/90 hover:bg-surface-alt hover:text-primary"
-                >
-                  {item.label}
-                </Link>
-              </li>
-            ))}
+            {site.nav.items.map((item) => {
+              const active = isActive(item.href);
+              return (
+                <li key={item.href}>
+                  <Link
+                    href={item.href}
+                    onClick={() => setOpen(false)}
+                    aria-current={active ? "page" : undefined}
+                    className={`block rounded-md px-2 py-3 text-base font-medium hover:bg-surface-alt hover:text-primary ${
+                      active ? "bg-surface-alt text-primary" : "text-ink/90"
+                    }`}
+                  >
+                    {item.label}
+                  </Link>
+                </li>
+              );
+            })}
           </ul>
         </nav>
       )}
